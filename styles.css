@@ -23,6 +23,7 @@ hr {
 /**container**/
 .container {
    padding: 0rem 1rem;
+   
 }
 
 .container-center{
@@ -38,7 +39,8 @@ hr {
     padding: 0.5rem 1rem;
     color: white;
     
-    /* margin-top: 1rem;
+/*     
+    margin-top: 1rem;
     margin-bottom: 1rem; */
 }
 
@@ -47,8 +49,11 @@ hr {
    background-color: var(--primary-color); 
    border-radius: 0.5rem;
    color: white;
+   text-align: center;
+   
 
 }
+
 
 .link-secondary{
     color: var(--primary-color);
@@ -129,6 +134,7 @@ hr {
 
 .section {
     padding: 2rem;
+    text-align: center;
 }
 
 .section h1{
