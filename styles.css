@@ -8,7 +8,7 @@
 
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Merriweather', serif;
     margin: 0px;
 }
 
@@ -109,6 +109,8 @@ hr {
 .hero {
     padding: 2rem;
     padding-top: 5rem;
+    overflow: hidden;
+    text-align: center;
     
 }
 
@@ -123,10 +125,12 @@ hr {
     text-align: center;
     padding-top: 1rem;
     color: var(--dark-gray)
+
 }
 
 .hero .hero-heading .heading-inverted{
     color: var(--primary-color);
+    
 
 }
 
@@ -142,6 +146,8 @@ hr {
     
 
 }
+
+
 
 .ow {
     background-color: var(--off-white);
@@ -172,4 +178,30 @@ hr {
 .footer ul {
     padding-inline-start: 0px;
 
+}
+
+.copyright{
+ color: #EAF6F6;
+  font-size: 0.75rem;
+  
+}
+
+.cursor .typing{
+    animation: none;
+}
+
+.cursor{
+    display: inline-block;
+    width: 3px;
+    background-color:black;
+    margin-left: 0.2rem;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink{
+    0% {background-color:blue}
+    49%{background-color:blue}
+    50%{background-color: transparent;}
+    99%{background-color: transparent;}
+    100%{background-color:blue}
 }
