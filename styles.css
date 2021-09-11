@@ -111,7 +111,8 @@ hr {
     padding-top: 5rem;
     overflow: hidden;
     text-align: center;
-    
+    font-weight: bold;
+    font-size: 3.5rem;
 }
 
 .hero .hero-img{
@@ -204,4 +205,9 @@ hr {
     50%{background-color: transparent;}
     99%{background-color: transparent;}
     100%{background-color:blue}
+}
+
+.typed-text {
+    color:#D97706;
+    font-weight: bold;
 }
