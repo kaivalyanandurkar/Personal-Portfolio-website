@@ -29,6 +29,8 @@ hr {
 .container-center{
     max-width: 600px;
     margin: auto;
+    text-align: center;
+    padding: 2rem;
 }
 
 /**links**/
@@ -152,6 +154,7 @@ hr {
 
 .ow {
     background-color: var(--off-white);
+    
 }
 
 /**Footers**/
