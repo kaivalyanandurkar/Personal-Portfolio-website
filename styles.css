@@ -133,6 +133,7 @@ hr {
 
 .hero .hero-heading .heading-inverted{
     color: var(--primary-color);
+    size: 1rem;
     
 
 }
