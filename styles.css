@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&display=swap');
 
 :root {
     --primary-color: #6366F1;
@@ -7,9 +9,12 @@
 }
 
 
+
 body {
-    font-family: 'Merriweather', serif;
+    /* font-family: 'Merriweather', serif; */
+    font-family: 'Gemunu Libre', sans-serif;
     margin: 0px;
+    font-size: 1.5rem;
 }
 
 hr {
@@ -56,6 +61,7 @@ hr {
 }
 
 
+
 .link-secondary{
     color: var(--primary-color);
     border-radius: 0.5rem;
@@ -89,7 +95,7 @@ hr {
 
 .navigation .nav-brand {
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 1.7rem;
 }
 
 .navigation .nav-pills {
@@ -181,8 +187,7 @@ hr {
 }
 
 .footer .footer-header {
-    font-weight: bold;
-    font-size: large;
+    font-size: 1.5rem;
 }
 
 .footer ul {

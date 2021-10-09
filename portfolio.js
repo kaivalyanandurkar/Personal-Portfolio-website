@@ -3,9 +3,9 @@ const cursorSpan = document.querySelector(".cursor");
 
 
 const textArray = ["DEVELOPER BY PASSION", "DEVELOPER BY CHOICE"];
-const typingDelay = 200;
-const erasingDelay = 100;
-const newTextDelay = 2000;
+const typingDelay = 100;
+const erasingDelay = 50;
+const newTextDelay = 1000;
 let textArrayIndex = 0;
 let charIndex = 0;
 
